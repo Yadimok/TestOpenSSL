@@ -3,3 +3,4 @@
 3. Test Blowfish with modes: CBC, ECB, OFB
 4. Test stream cipher Alleged RC4
 5. Test DES with CBC mode
+6. Test 3DES with CFB mode
