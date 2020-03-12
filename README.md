@@ -5,3 +5,4 @@
 5. Test DES with CBC mode
 6. Test 3DES with CFB mode
 7. Test ARC4 with libgcrypt
+8. Test Salsa20R12 with libgcrypt and GOST R 34.11-2012 256 bits
