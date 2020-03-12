@@ -4,3 +4,4 @@
 4. Test stream cipher Alleged RC4
 5. Test DES with CBC mode
 6. Test 3DES with CFB mode
+7. Test ARC4 with libgcrypt
