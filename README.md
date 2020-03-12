@@ -4,6 +4,6 @@
 4. Test stream cipher Alleged RC4
 5. Test DES with CBC mode
 6. Test 3DES with CFB mode
-7. Test ARC4 with libgcrypt
+7. Test ARC4 with libgcrypt and MD5
 8. Test Salsa20R12 with libgcrypt and GOST R 34.11-2012 256 bits
 9. Test GOST28147-89 with libcrypt and RIPEMD-160
