@@ -9,3 +9,6 @@
 7. Test ARC4 with libgcrypt and MD5
 8. Test Salsa20R12 with libgcrypt and GOST R 34.11-2012 256 bits
 9. Test GOST28147-89 with libcrypt and RIPEMD-160
+10. DigestCipher - Calculations file hash
+
+Note: The libgcrypt library has GOST 34.11-2012 hashing functions (256 and 512 bits), but they do not correctly calculate hash values.
