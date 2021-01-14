@@ -64,8 +64,11 @@ Get hash file:
 	`openssl dgst -engine gost -md_gost12_512 <filename>`
 	
 #Note #1: The libgcrypt library has GOST 34.11-2012 hashing functions (256 and 512 bits), but they do not correctly calculate hash values.
+
 #Note #2:
 http://wiki.rosalab.ru/ru/index.php/OpenSSL_%D0%B8_%D0%93%D0%9E%D0%A1%D0%A2
+
 https://jakondo.ru/kak-dobavit-podderzhku-shifrovaniya-po-gost-r-34-10-2012-v-openssl-1-1-1d-na-debian-9-stretch/
+
 https://forum.nag.ru/index.php?/topic/150051-sborka-openssl-s-podderzhkoy-gost-2012/
 
