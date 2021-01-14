@@ -23,24 +23,33 @@ For `GOST` engine:
 9. sudo nano /usr/lib/ssl/openssl.cnf
 
 	`# OpenSSL example configuration file.`
+	
 	`# This is mostly being used for generation of certificate requests.`
 
 	`openssl_conf=openssl_def`
 
 	`[openssl_def]`
+	
 	`engines = engine_section`
-
+	
 	`# Engine section`
+	
 	`[engine_section]`
+	
 	`gost = gost_section`
 
 	`# Engine gost section`
-	`[gost_section]`
-	`engine_id = gost`
-	`dynamic_path = /usr/lib/x86_64-linux-gnu/engines-1.1/gost.so`
-	`default_algorithms = ALL`
-	`CRYPT_PARAMS = id-Gost28147-89-CryptoPro-A-ParamSet`
 	
+	`[gost_section]`
+	
+	`engine_id = gost`
+	
+	`dynamic_path = /usr/lib/x86_64-linux-gnu/engines-1.1/gost.so`
+	
+	`default_algorithms = ALL`
+	
+	`CRYPT_PARAMS = id-Gost28147-89-CryptoPro-A-ParamSet`
+
 Check engine:
 
 	`openssl  engine gost -c`
