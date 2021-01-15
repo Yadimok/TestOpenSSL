@@ -1,4 +1,4 @@
-# Test OpenSSL & libgcrypt:
+# Examples with OpenSSL & libgcrypt:
 
 1. Test AES256 with modes: ECB, CBC, OFB
 2. Test hash functions: MD5, SHA512
@@ -10,6 +10,7 @@
 8. Test Salsa20R12 with libgcrypt and GOST R 34.11-2012 256 bits
 9. Test GOST28147-89 with libcrypt and RIPEMD-160
 10. DigestCipher - Calculations file hash
+11. Test ElGamal with libgcrypt (cipher/decipher)
 
 For `GOST` engine:
 1. git clone https://github.com/gost-engine/engine
